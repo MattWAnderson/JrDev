@@ -1,0 +1,23 @@
+name: SamplePlugin
+api: [1.9.0]
+version: 1.0
+load: POSTWORLD
+main: JrDevTeam\SamplePlugin\FileName
+author: PocketMiners JR Dev Team
+website: http://pocketminers.com
+
+commands:
+ test:
+  description: "This is a test command"
+  usage: "/test"
+  permission: sampleplugin.user
+
+testop:
+  description: sample command for op only
+  permission: sampleplugin.op
+
+permissions:      
+ samplepluigin.user:
+  description: "Gives access to User commands"
+  default: true
+
