@@ -20,7 +20,7 @@ class FileName extends PluginBase implements Listener
 
 //command example
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
-        if(strtolower($command->getName()) === "test"){
+        if(strtolower($command->getName()) === "pocketminers"){
             $sender->sendMessage("Yay.. command worked as normal user!");
             return true;
         }
