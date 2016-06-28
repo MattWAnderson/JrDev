@@ -18,7 +18,15 @@ class Main extends PluginBase implements Listener
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
+//command example
+    public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+        if(strtolower($command->getName()) === "test"){
+            $sender->sendMessage("Yay.. command worked as normal user!");
+            return true;
+        }
 
+        return false;
+    }
 
 
 

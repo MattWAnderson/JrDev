@@ -1,0 +1,16 @@
+name: NewJrPlugin
+api: [1.9.0]
+version: 1.0
+load: POSTWORLD
+main: JrDevTeam\NewJrPlugin\Main
+author: PocketMiners JR Dev Team
+website: http://pocketminers.com
+commands:
+ test:
+  description: "This is a test command"
+  usage: "/test"
+  permission: sampleplugin.user
+permissions:
+ sampleplugin.user:
+  description: "Gives access to User commands"
+  default: true
