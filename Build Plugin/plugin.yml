@@ -10,6 +10,7 @@ commands:
   description: "This is a test command"
   usage: "/test"
   permission: sampleplugin.user
+  
 permissions:
  sampleplugin.user:
   description: "Gives access to User commands"
