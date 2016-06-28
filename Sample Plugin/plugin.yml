@@ -7,15 +7,11 @@ author: PocketMiners JR Dev Team
 website: http://pocketminers.com
 
 commands:
- pocketminers: // add pocketminers here so the server knows the command
+ pocketminers:
   description: "This is a test command"
   usage: "/pocketminers"
   permission: sampleplugin.user
-
-testop:
-  description: sample command for op only
-  permission: sampleplugin.op
-
+  
 permissions:      
  samplepluigin.user:
   description: "Gives access to User commands"
