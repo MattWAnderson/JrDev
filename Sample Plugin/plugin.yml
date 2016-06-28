@@ -7,7 +7,7 @@ author: PocketMiners JR Dev Team
 website: http://pocketminers.com
 
 commands:
- test:/pocketminers
+ pocketminers: // add pocketminers here so the server knows the command
   description: "This is a test command"
   usage: "/pocketminers"
   permission: sampleplugin.user
