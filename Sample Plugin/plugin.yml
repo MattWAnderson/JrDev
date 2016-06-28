@@ -9,7 +9,7 @@ website: http://pocketminers.com
 commands:
  test:
   description: "This is a test command"
-  usage: "/test"
+  usage: "/pocketminers"
   permission: sampleplugin.user
 
 testop:
