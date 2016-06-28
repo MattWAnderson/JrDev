@@ -7,12 +7,14 @@ author: PocketMiners JR Dev Team
 website: http://pocketminers.com
 
 commands:
- test: //name of command ran
-  description: "This is a test command" //ties to permission below
+ test:/pocketminers
+  description: "This is a test command"
   usage: "/pocketminers"
-  permission: sampleplugin.user //ties to permission below
+  permission: sampleplugin.user
 
- 
+testop:
+  description: sample command for op only
+  permission: sampleplugin.op
 
 permissions:      
  samplepluigin.user:
